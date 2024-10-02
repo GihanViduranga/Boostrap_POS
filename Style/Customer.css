@@ -1,0 +1,74 @@
+* {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: lightgray;
+    position: sticky;
+    margin-top: -8px;
+}
+.navbar .nav-link:hover {
+    color: blue;
+}
+#Navbar .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 22px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+#Frame{
+    width: 80%;
+    height: 700px;
+    background-color: lightgray;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+#Cus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.card{
+    margin-left: 100px;
+    background-color: #a4b0be;
+}
+#newCustomerBTN{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 100px;
+    margin-top: -215px;
+}
+.BTNGroup{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 140px;
+    margin-right: 100px;
+}
+.table{
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.TableDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
