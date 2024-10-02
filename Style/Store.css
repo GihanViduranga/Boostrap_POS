@@ -46,23 +46,26 @@ section{
 .card{
     margin-left: 100px;
     background-color: #a4b0be;
+
 }
-#newCustomerBTN{
+#newItemBTN{
     display: flex;
     justify-content: end;
     align-items: end;
     margin-right: 100px;
     margin-top: -215px;
 }
-#BTNGroup{
+.BTNGroup{
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-top: -50px;
+    margin-top: 140px;
     margin-right: 100px;
 }
 .table{
-    margin-bottom: 75px;
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 .TableDiv{
     display: flex;
