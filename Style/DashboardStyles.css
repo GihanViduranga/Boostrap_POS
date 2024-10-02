@@ -1,0 +1,33 @@
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: lightgray;
+    position: sticky;
+    margin-top: -8px;
+}
+.navbar .nav-link:hover {
+    color: blue;
+}
+#Navbar .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.card {
+    width: 18rem;
+}
