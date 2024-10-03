@@ -1,0 +1,38 @@
+* {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: lightgray;
+    position: sticky;
+    margin-top: -8px;
+}
+.navbar .nav-link:hover {
+    color: blue;
+}
+#Navbar .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 22px;
+}
+.card-header {
+    background-color: gray;
+    color: white;
+}
+.total-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.total-box h5, .total-box p {
+    margin: 0;
+}

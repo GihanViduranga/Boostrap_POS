@@ -40,8 +40,9 @@
 </nav>
 <main>
     <section>
-        <div id="Frame">
-            <h1 id="Cus">Store Management</h1>
+        <div id="Frame" class="position-relative">
+            <h1 id="Cus">Item Management</h1>
+            <a href="Dashboard.html"><button id="BTN" type="button" class="btn btn-danger">Back</button></a>
             <div class="card" style="width: 25rem;">
                 <div class="card-body">
                     <form>
@@ -55,15 +56,20 @@
                     </form>
                 </div>
             </div>
-            <div id="newItemBTN">
+            <div id="newCustomerBTN">
                 <a href="StoreManage.html#AddCus"><button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Add new Item</button></a>
             </div>
-            <div class="BTNGroup">
+            <!--<div class="BTNGroup">
                 <button type="button" class="btn btn-success" style="width: 150px">Save</button>
                 <button type="button" class="btn btn-warning" style="width: 150px">Update</button>
                 <button type="button" class="btn btn-danger" style="width: 150px">Delete</button>
+            </div>-->
+            <div id="BTNGroup" class="position-absolute top-50 end-0 translate-middle-y" role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn btn-success">Save</button>
+                <button type="button" class="btn btn-warning">Update</button>
+                <button type="button" class="btn btn-danger">Delete</button>
             </div>
-            <div class="TableDiv ">
+            <div class="TableDiv position-absolute bottom-0 start-50 translate-middle-x">
                 <table class="table">
                     <thead class="table-light">
                     <th>Item ID</th>
@@ -75,13 +81,13 @@
                     <td>I001</td>
                     <td>Chili</td>
                     <td>100</td>
-                    <td>Rs: 250.00</td>
+                    <td>Rs: 250</td>
                     </tbody>
                     <tbody>
                     <td>I001</td>
                     <td>Chili</td>
                     <td>100</td>
-                    <td>Rs: 250.00</td>
+                    <td>Rs: 250</td>
                     </tbody>
                 </table>
             </div>

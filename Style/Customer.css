@@ -58,7 +58,6 @@ section{
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-top: -50px;
     margin-right: 100px;
 }
 .table{
@@ -69,4 +68,8 @@ section{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+}
+#BTN{
+    margin-left: 100px;
+    margin-bottom: 5px;
 }

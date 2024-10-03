@@ -31,6 +31,12 @@ section{
     align-items: center;
     margin-right: 20px;
 }
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
 #Frame{
     width: 80%;
     height: 700px;
@@ -46,30 +52,30 @@ section{
 .card{
     margin-left: 100px;
     background-color: #a4b0be;
-
 }
-#newItemBTN{
+#newCustomerBTN{
     display: flex;
     justify-content: end;
     align-items: end;
     margin-right: 100px;
     margin-top: -215px;
 }
-.BTNGroup{
+#BTNGroup{
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-top: 140px;
     margin-right: 100px;
 }
 .table{
-    width: 80%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    margin-bottom: 75px;
 }
 .TableDiv{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+}
+#BTN{
+    margin-left: 100px;
+    margin-bottom: 5px;
 }
