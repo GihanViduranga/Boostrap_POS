@@ -16,10 +16,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary" id="Navbar">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="Image/Hot%20Chili%20logo%20design%20template.jpg" width="50px"></a>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="Dashboard.html">Home</a>
@@ -35,11 +38,10 @@
                 </li>
             </ul>
         </div>
-        <a class="navbar-brand" href="Login.html"><img src="Image/icons8-logout-100.png" width="50px"></a>
     </div>
 </nav>
 <main>
-    <section>
+    <!--<section>
         <div id="Frame" class="position-relative">
             <h1 id="Cus">Item Management</h1>
             <a href="Dashboard.html"><button id="BTN" type="button" class="btn btn-danger">Back</button></a>
@@ -59,11 +61,11 @@
             <div id="newCustomerBTN">
                 <a href="StoreManage.html#AddCus"><button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Add new Item</button></a>
             </div>
-            <!--<div class="BTNGroup">
+            &lt;!&ndash;<div class="BTNGroup">
                 <button type="button" class="btn btn-success" style="width: 150px">Save</button>
                 <button type="button" class="btn btn-warning" style="width: 150px">Update</button>
                 <button type="button" class="btn btn-danger" style="width: 150px">Delete</button>
-            </div>-->
+            </div>&ndash;&gt;
             <div id="BTNGroup" class="position-absolute top-50 end-0 translate-middle-y" role="group" aria-label="Basic mixed styles example">
                 <button type="button" class="btn btn-success">Save</button>
                 <button type="button" class="btn btn-warning">Update</button>
@@ -128,7 +130,77 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
+    <div class="row">
+        <div class="w-auto p-3">
+            <div class="col-lg-9">
+                <div class="card p-3 mb-4">
+                    <h4 class="card-title">Add / Edit Item</h4>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label for="ItemID" class="form-label">Item ID</label>
+                                <input type="text" class="form-control" id="ItemID" placeholder="Enter Item ID">
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="ItemName" class="form-label">Item Name</label>
+                                <input type="text" class="form-control" id="ItemName" placeholder="Enter Item Name">
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="Quantity" class="form-label">Quantity</label>
+                                <input type="text" class="form-control" id="Quantity" placeholder="Quantity">
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="Price" class="form-label">Price</label>
+                                <input type="tel" class="form-control" id="Price" placeholder="Enter Price">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="btn-group-vertical w-100">
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search by ID" aria-label="Search">
+                                    <button class="btn btn-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button type="button" class="btn btn-success">Save</button>
+                            <button type="button" class="btn btn-warning">Update</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="card p-3">
+                    <h4 class="card-title">Item</h4>
+                    <table class="table table-bordered table-striped">
+                        <thead class="table-dark">
+                        <tr>
+                            <th>Item ID</th>
+                            <th>Price Name</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>Chili</td>
+                            <td>100</td>
+                            <td>Rs: 250</td>
+                        </tr>
+                        <tr>
+                            <td>001</td>
+                            <td>Chili</td>
+                            <td>100</td>
+                            <td>Rs: 250</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 </body>
 </html>
